@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assistant Reply2</title>
+    <title>Assistant Reply3</title>
 </head>
 <body>
     <h1>Assistant Reply</h1>
@@ -10,7 +10,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Use the messages array from your Python code and pass the last message into the JavaScript context
-            const replyFromAssistant = "messages[-1].content[0].text.value"; // Replace with `messages[-1].content[0].text.value` from your Python code block.
+            const replyFromAssistant = "{ reply }}"; // Replace with `messages[-1].content[0].text.value` from your Python code block.
             // Set the assistant reply in the div with the ID 'assistant-reply'
             document.getElementById('assistant-reply').innerText = replyFromAssistant;
         });
